@@ -16,6 +16,7 @@
 		519BBBDD1D8CA57E00AAF4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519BBBDB1D8CA57E00AAF4C1 /* LaunchScreen.storyboard */; };
 		519BBBE81D8CA57E00AAF4C1 /* MajorityReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519BBBE71D8CA57E00AAF4C1 /* MajorityReportTests.m */; };
 		519BBBF31D8CA57E00AAF4C1 /* MajorityReportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519BBBF21D8CA57E00AAF4C1 /* MajorityReportUITests.m */; };
+		519BBC021D8CA5CD00AAF4C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519BBC011D8CA5CD00AAF4C1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		519BBBEE1D8CA57E00AAF4C1 /* MajorityReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajorityReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519BBBF21D8CA57E00AAF4C1 /* MajorityReportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajorityReportUITests.m; sourceTree = "<group>"; };
 		519BBBF41D8CA57E00AAF4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519BBC011D8CA5CD00AAF4C1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519BBC021D8CA5CD00AAF4C1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +90,7 @@
 				519BBBE61D8CA57E00AAF4C1 /* MajorityReportTests */,
 				519BBBF11D8CA57E00AAF4C1 /* MajorityReportUITests */,
 				519BBBC81D8CA57E00AAF4C1 /* Products */,
+				519BBC001D8CA5CD00AAF4C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +145,14 @@
 				519BBBF41D8CA57E00AAF4C1 /* Info.plist */,
 			);
 			path = MajorityReportUITests;
+			sourceTree = "<group>";
+		};
+		519BBC001D8CA5CD00AAF4C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				519BBC011D8CA5CD00AAF4C1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
